@@ -9,6 +9,8 @@ def index(request):
 
     member_list = Member.objects.all()
 
+    Member.
+
     return render(request, 'index.html', {'member_list' : member_list})
 
     
